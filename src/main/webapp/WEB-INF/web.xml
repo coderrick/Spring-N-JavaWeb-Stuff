@@ -22,10 +22,11 @@
 		<url-pattern>/</url-pattern>
 	</servlet-mapping>
 
-	<!-- For root context -->
+	<!-- For root context 
 	<listener>
 		<listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
 	</listener>
+    -->
 
 	<context-param>
 		<param-name>contextConfigLocation</param-name>
