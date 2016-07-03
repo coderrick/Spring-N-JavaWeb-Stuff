@@ -3,7 +3,7 @@
 	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
 	version="2.5">
 
-	<display-name>Gradle + Spring MVC Hello World + XML</display-name>
+	<display-name>Spring-N-JavaWeb-Stuff</display-name>
 	<description>Spring MVC web application</description>
 
 	<!-- For web context -->
@@ -34,3 +34,11 @@
 	</context-param>
 
 </web-app>
+<!-- 
+    4 Steps to Create basic app with Spring MVC
+
+    1) Modify web.xml file
+    2) Create spring-dispatcher-servlet.xml
+    3) Create HelloController.Java class (A Controller)
+    4) Create the HelloPage.jsp file (A View)
+-->
